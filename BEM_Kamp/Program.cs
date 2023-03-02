@@ -2445,7 +2445,6 @@ namespace BEM_Kamp
 
             Console.ReadLine();
         }
-
     }
 }
 
