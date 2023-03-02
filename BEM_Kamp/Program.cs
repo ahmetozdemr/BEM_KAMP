@@ -2441,7 +2441,7 @@ namespace BEM_Kamp
             //Console.WriteLine($"kat = {sonuc}");
             #endregion
              
-
+             
 
             Console.ReadLine();
         }
