@@ -2440,10 +2440,88 @@ namespace BEM_Kamp
             //Console.WriteLine($"24.Saniyede Bakteri Sayısı = {bakteri2}");
             //Console.WriteLine($"kat = {sonuc}");
             #endregion
-             
-             
+            #region MyRegion
+            //int toplam = 0;
+            //Console.WriteLine("Birinci sayıyı giriniz=");
+            //int sayi1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("İkinci sayıyı giriniz=");
+            //int sayi2 = int.Parse(Console.ReadLine());
+            //do
+            //{
+            //    if (sayi1 % 2 == 1)
+            //    {
+            //        toplam = toplam + sayi2;
+            //    }
+            //    sayi1 = sayi1 / 2;
+            //    Console.WriteLine("ikiye bölüm " + sayi1);
+            //    sayi2 = sayi2 * 2;
+            //    Console.WriteLine("ikiyle çarpım " + sayi2);
+            //} while (sayi1 >= 1);
+            //Console.WriteLine("Sonuç = " + toplam);
+            //Console.ReadKey(); 
+            #endregion
+            #region Mükemmel sayıyı bulma
+            //Console.WriteLine("Bir değer ver");
+            //int toplam = 0;
+            //int deger = Convert.ToInt32(Console.ReadLine());
 
-            Console.ReadLine();
+            //for (int i = 1; i <= deger; i++)
+            //{
+            //    if (deger % i == 0)
+            //    {
+            //        Console.WriteLine("Bölenler : {0}", i);
+            //        toplam += i;
+            //    }
+            //}
+            //if (toplam == deger * 2)
+            //{
+            //    Console.WriteLine("Bu bir mükemmel sayı : {0}",deger);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Mükemmel sayı değil : {0} ",deger);
+            //}
+
+
+            ////Mükemmel sayı 2 çözüm
+            //Console.Write("Sayı: ");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int top;
+            //for (int i = 2; i < n; i++)
+            //{
+            //    top = 0;
+            //    for (int j = 1; j < i; j++)
+            //    {
+            //        if (i % j == 0)
+            //            top += j;
+            //    }
+            //    if (top == i)
+            //        Console.WriteLine(i);
+            //}
+            //Console.Read();
+
+            //int toplam = 0;
+            //Console.WriteLine("Bir sayı giriniz");
+            //int aralik = Convert.ToInt32(Console.ReadLine());
+            //for (int i = aralik; i > 0; i--)
+            //{
+            //    toplam = 0;
+            //    for (int j = i - 1; j > 0; j--)
+            //    {
+            //        if (i % j == 0)
+            //        {
+            //            toplam += j;
+            //        }
+            //    }
+            //    if (toplam == i)
+            //    {
+            //        Console.WriteLine(i + " mükemmel sayı");
+            //    }
+            //}
+        #endregion
+
+
+        Console.ReadLine();
         }
     }
 }
