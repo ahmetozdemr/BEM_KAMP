@@ -94,7 +94,7 @@ namespace ConsoleApp1
             //}
 
             #endregion
-
+            #region örnek
 
             //Console.WriteLine("Bir metin giriniz");
             //string metin = Console.ReadLine().ToUpper();
@@ -137,8 +137,8 @@ namespace ConsoleApp1
             //        }
             //    }
             //}
-            // Console.WriteLine(sayac);
-
+            // Console.WriteLine(sayac); 
+            #endregion
             #region Elemanları tam sayı olan bir A dizisinin (20 elemanlı) rastgele sayılar atayan, sonra elemanlarının aritmetik ortalamasını hesaplayan ve elemanlarından kaç tanesinin bu ortalamadan büyük ve küçük olduğunu sayan program.
 
             //int ort = 0, top= 0, buyuk=0,kucuk=0;
@@ -289,10 +289,62 @@ namespace ConsoleApp1
             //}
             //Console.WriteLine(s + 1); 
             #endregion
+            #region 1 adet çift boyutlu dizi oluşturulacak bu dizi tek boyutlu diziye dönüştürülecek.
+            //int[,] diziçift = new int[3, 3];
+            //int[] dizitek = new int[9];
+            //Random rast = new Random();
+            //int sayac = 0;
+            //for (int i = 0; i < diziçift.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < diziçift.GetLength(1); j++)
+            //    {
+            //        diziçift[i, j] = rast.Next(1, 10);
+            //        Console.WriteLine(diziçift[i, j] + "\t");
+            //    }
+            //    Console.WriteLine("\n");
+            //}
+            //for (int i = 0; i < diziçift.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < diziçift.GetLength(1); j++)
+            //    {
+            //        dizitek[sayac] = diziçift[i, j];
+            //        sayac++;
+            //    }
+            //    Console.WriteLine("\n");
+            //}    
+            #endregion
+            #region iki boyutlu diziyi tek boyuta çevirme örneği
+            int[,] ciftBoyutluDizi = new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+            int boyut = ciftBoyutluDizi.GetLength(0) * ciftBoyutluDizi.GetLength(1);
+            int[] tekBoyutluDizi = new int[boyut];
 
+            int index = 0;
+            for (int i = 0; i < ciftBoyutluDizi.GetLength(0); i++)
+            {
+                for (int j = 0; j < ciftBoyutluDizi.GetLength(1); j++)
+                {
+                    tekBoyutluDizi[index] = ciftBoyutluDizi[i, j];
+                    index++;
+                }
+            }
 
+            Console.WriteLine("Çift boyutlu dizi: ");
+            for (int i = 0; i < ciftBoyutluDizi.GetLength(0); i++)
+            {
+                for (int j = 0; j < ciftBoyutluDizi.GetLength(1); j++)
+                {
+                    Console.Write(ciftBoyutluDizi[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
 
-
+            Console.WriteLine("Tek boyutlu dizi: ");
+            for (int i = 0; i < boyut; i++)
+            {
+                Console.Write(tekBoyutluDizi[i] + " ");
+            }
+            Console.ReadLine();
+            #endregion
 
             Console.ReadLine();
 
