@@ -314,36 +314,60 @@ namespace ConsoleApp1
             //}    
             #endregion
             #region iki boyutlu diziyi tek boyuta çevirme örneği
-            int[,] ciftBoyutluDizi = new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
-            int boyut = ciftBoyutluDizi.GetLength(0) * ciftBoyutluDizi.GetLength(1);
-            int[] tekBoyutluDizi = new int[boyut];
+            //int[,] ciftBoyutluDizi = new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+            //int boyut = ciftBoyutluDizi.GetLength(0) * ciftBoyutluDizi.GetLength(1);
+            //int[] tekBoyutluDizi = new int[boyut];
 
-            int index = 0;
-            for (int i = 0; i < ciftBoyutluDizi.GetLength(0); i++)
-            {
-                for (int j = 0; j < ciftBoyutluDizi.GetLength(1); j++)
-                {
-                    tekBoyutluDizi[index] = ciftBoyutluDizi[i, j];
-                    index++;
-                }
-            }
+            //int index = 0;
+            //for (int i = 0; i < ciftBoyutluDizi.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < ciftBoyutluDizi.GetLength(1); j++)
+            //    {
+            //        tekBoyutluDizi[index] = ciftBoyutluDizi[i, j];
+            //        index++;
+            //    }
+            //}
 
-            Console.WriteLine("Çift boyutlu dizi: ");
-            for (int i = 0; i < ciftBoyutluDizi.GetLength(0); i++)
-            {
-                for (int j = 0; j < ciftBoyutluDizi.GetLength(1); j++)
-                {
-                    Console.Write(ciftBoyutluDizi[i, j] + " ");
-                }
-                Console.WriteLine();
-            }
+            //Console.WriteLine("Çift boyutlu dizi: ");
+            //for (int i = 0; i < ciftBoyutluDizi.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < ciftBoyutluDizi.GetLength(1); j++)
+            //    {
+            //        Console.Write(ciftBoyutluDizi[i, j] + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
 
-            Console.WriteLine("Tek boyutlu dizi: ");
-            for (int i = 0; i < boyut; i++)
-            {
-                Console.Write(tekBoyutluDizi[i] + " ");
-            }
-            Console.ReadLine();
+            //Console.WriteLine("Tek boyutlu dizi: ");
+            //for (int i = 0; i < boyut; i++)
+            //{
+            //    Console.Write(tekBoyutluDizi[i] + " ");
+            //}
+            //Console.ReadLine();
+
+
+            ////Fatihin çözümü
+            //Random rnd = new Random();
+            //int[,] array = new int[4, 5];
+            //int[] array_2 = new int[array.Length];
+            //int k = 0;
+            //Console.WriteLine("çift boyutlu dizi");
+            //for (int i = 0; i < array.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < array.GetLength(1); j++)
+            //    {
+            //        array[i, j] = rnd.Next(1, 100);
+            //        array_2[k] = array[i, j];
+            //        Console.Write($"{array[i, j]}\t");
+            //        k++;
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine("\ntek boyutlu dizi");
+            //for (int i = 0; i < array_2.Length; i++)
+            //{
+            //    Console.Write($"{array_2[i]} ");
+            //}
             #endregion
 
 
