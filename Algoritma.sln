@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metot", "Metot\Metot.csproj", "{B0B8757F-3AE8-450E-8C68-5D7530158A1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{97C9F92C-7228-4B05-BF2E-31D11818E21C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B0B8757F-3AE8-450E-8C68-5D7530158A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0B8757F-3AE8-450E-8C68-5D7530158A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0B8757F-3AE8-450E-8C68-5D7530158A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C9F92C-7228-4B05-BF2E-31D11818E21C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C9F92C-7228-4B05-BF2E-31D11818E21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C9F92C-7228-4B05-BF2E-31D11818E21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C9F92C-7228-4B05-BF2E-31D11818E21C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
