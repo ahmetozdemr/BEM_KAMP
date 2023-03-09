@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassWorkaround", "ClassWorkaround\ClassWorkaround.csproj", "{381B87FF-31E6-4EA4-A3B1-C388295073A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassCreate", "ClassCreate\ClassCreate.csproj", "{DDA12F00-8713-487B-94D8-56149F1A698B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassCreate", "ClassCreate\ClassCreate.csproj", "{DDA12F00-8713-487B-94D8-56149F1A698B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School", "School\School.csproj", "{ADF3D4A6-80CE-46D6-A691-25C66174C5AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School", "School\School.csproj", "{ADF3D4A6-80CE-46D6-A691-25C66174C5AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimekullanimi", "DateTimekullanimi\DateTimekullanimi.csproj", "{7208B50E-7996-4643-BADE-731763534A64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{ADF3D4A6-80CE-46D6-A691-25C66174C5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADF3D4A6-80CE-46D6-A691-25C66174C5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADF3D4A6-80CE-46D6-A691-25C66174C5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7208B50E-7996-4643-BADE-731763534A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7208B50E-7996-4643-BADE-731763534A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7208B50E-7996-4643-BADE-731763534A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7208B50E-7996-4643-BADE-731763534A64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
