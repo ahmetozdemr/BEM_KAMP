@@ -34,10 +34,10 @@ namespace Metot
                 Console.WriteLine("En büyük x ");
                 Console.WriteLine("En küçük y ");
             }
-            else if (y>)
-            {
+            //else if (y>)
+            //{
 
-            }
+            //}
         }
 
         static void TekCift()
