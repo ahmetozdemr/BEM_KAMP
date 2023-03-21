@@ -1,6 +1,7 @@
-﻿using System;
+﻿using ClassWorkaround;
+using System;
 
-namespace ClassWorkaround
+namespace ClassCreate2
 {
     internal class Program
     {
