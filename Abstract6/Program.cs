@@ -5,7 +5,7 @@ namespace Struct1
     internal class Program
     {
         static void Main(string[] args)
-        {         
+        {
 
             Ders drs1 = new Ders();
             drs1.Adi = "Programlama";
@@ -27,29 +27,38 @@ namespace Struct1
 
             Console.WriteLine(ogr1.Ogretmen.Adi);
             Console.WriteLine(ogr1.Dersi.Adi);
-          
+
             Console.WriteLine(Ogrenci.OgrenciSayisi);
 
-            Console.ReadKey();  
+            Console.ReadKey();
         }
     }
     class Ogrenci
-    {    
+    {
         public Ogrenci()
         {
             OgrenciSayisi++;
         }
+        public void abc()
+        {
+
+        }
+
         public string Ad { get; set; }
         public string SoyAd { get; set; }
 
         public int OkulNo { get; set; }
         public int Sinif { get; set; }
-        public Ogretmen Ogretmen { get; set; }  
-        public Ders Dersi { get; set; } 
+        public Ogretmen Ogretmen { get; set; }
+        public Ders Dersi { get; set; }
         public static int OgrenciSayisi { get; set; }
-       
-        //Static : sınıftan instance almadan sınıfın sonuna nokta koyarak static elemana ulaşmamızı sağlıyor.
 
+        //Static : sınıftan instance almadan sınıfın sonuna nokta koyarak static elemana ulaşmamızı sağlıyor.
+        static void Ekle()
+        {
+            //Sitatic metotlar içerisinde static olan propertylere erişilebir 
+            Console.WriteLine("Ekleme işlemi tamamlandı");
+        }
     }
     struct Ders
     {
@@ -63,5 +72,15 @@ namespace Struct1
     {
         public string Adi { get; set; }
         public string SoyAd { get; set; }
+    }
+    static class Mudur
+    {
+        static public int MyProperty { get; set; }
+
+        // static sınıflarda instance
+        // static olmayan eleman bulunamaz
+        //bir sınıf içerisinde bulunan elemanları tumu static olacaksa sınıf static olarak tamamlanır
+        //Zaten instance alman sınıf içerisindeki tüm static elemanlara ulaşılabiliyor
+
     }
 }
