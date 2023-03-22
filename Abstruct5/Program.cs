@@ -52,14 +52,14 @@ namespace Abstruct5
         public override void OzellikleriGoster()
         {
             yedigiHayvan = YedigiHayvan;
-            beslenmeSekli=BeslenmeSekli;
-            ayaksayisi = Ayaksayisi;    
+            beslenmeSekli = BeslenmeSekli;
+            ayaksayisi = Ayaksayisi;
             ad = Ad;
 
-            Console.WriteLine("Ad : "+ ad);
-            Console.WriteLine("Beslenme Şekli: "+ beslenmeSekli);
-            Console.WriteLine("Ayak Sayisi : "+ ayaksayisi);
-            Console.WriteLine("Yediği Hayvan : "+ yedigiHayvan);
+            Console.WriteLine("Ad : " + ad);
+            Console.WriteLine("Beslenme Şekli: " + beslenmeSekli);
+            Console.WriteLine("Ayak Sayisi : " + ayaksayisi);
+            Console.WriteLine("Yediği Hayvan : " + yedigiHayvan);
         }
     }
 }

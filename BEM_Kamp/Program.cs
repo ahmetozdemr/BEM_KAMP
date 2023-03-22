@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Globalization;
-using System.Runtime.ConstrainedExecution;
-using System.Threading;
 
 namespace BEM_Kamp
 {
@@ -2518,10 +2515,10 @@ namespace BEM_Kamp
             //        Console.WriteLine(i + " mükemmel sayı");
             //    }
             //}
-        #endregion
+            #endregion
 
 
-        Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }

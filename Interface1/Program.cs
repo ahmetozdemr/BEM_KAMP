@@ -6,7 +6,7 @@ namespace Interface1
     {
         static void Main(string[] args)
         {
-            
+
             Gazete gazete = new Gazete();
             gazete.Sayfa = 50;
             gazete.HaberTuru = "Cinayet";
@@ -32,14 +32,14 @@ namespace Interface1
         int KenarBosgu { get; set; }
     }
 
-    class Gazete :Haberler, IArayuz
+    class Gazete : Haberler, IArayuz
     {
         public int Sayfa { get; set; }
         public int KenarBosgu { get; set; }
 
         public void SayfaOlustur()
         {
-            Console.WriteLine("Haber Turu :"+ HaberTuru);
+            Console.WriteLine("Haber Turu :" + HaberTuru);
         }
 
         public int SayfaSayisi()

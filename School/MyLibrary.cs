@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace School
 {
     internal class MyLibrary
     {
-        public void BookGiveOperation(Book book,Student student, Teacher teacher)
+        public void BookGiveOperation(Book book, Student student, Teacher teacher)
         {
-            
+
             Console.WriteLine("Kitabı Alan Öğrenci Blgileri");
             Console.WriteLine($"Id :{student.studentId}");
             Console.WriteLine($"Ad :{student.studentName}");

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClassWorkaround
 {
@@ -15,7 +11,7 @@ namespace ClassWorkaround
         {
             this.kisaKenar = 30;
             this.uzunKenar = 45;
-            Console.WriteLine("Dikdörtgenin alanı : "+ (30*45)/2);
+            Console.WriteLine("Dikdörtgenin alanı : " + (30 * 45) / 2);
         }
         public void dikdörtgenAlan(int a, int b)
         {

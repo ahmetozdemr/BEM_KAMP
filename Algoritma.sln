@@ -43,17 +43,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism2", "..\..\Cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism3", "..\..\ConsoleApp1\Polymorphism3\Polymorphism3.csproj", "{EE0CB9BB-7AB3-469F-9C26-AC6D8879C298}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstruct5", "Abstruct5\Abstruct5.csproj", "{5FDCC735-6136-4392-8DCB-871338672B58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstruct5", "Abstruct5\Abstruct5.csproj", "{5FDCC735-6136-4392-8DCB-871338672B58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct1", "Abstract6\Struct1.csproj", "{CB0CEA55-CE2D-4E55-968C-5584605E32AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Struct1", "Abstract6\Struct1.csproj", "{CB0CEA55-CE2D-4E55-968C-5584605E32AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalhaSinemaProjesi", "TalhaSinemaProjesi\TalhaSinemaProjesi.csproj", "{2E5FF2E9-D3AC-4C96-B593-79806A538B95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TalhaSinemaProjesi", "TalhaSinemaProjesi\TalhaSinemaProjesi.csproj", "{2E5FF2E9-D3AC-4C96-B593-79806A538B95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface1", "Interface1\Interface1.csproj", "{543C112C-6423-4870-8A39-22DEBAB3FC0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface1", "Interface1\Interface1.csproj", "{543C112C-6423-4870-8A39-22DEBAB3FC0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface2", "Interface2\Interface2.csproj", "{F20A506D-91E2-4210-AEF0-2A91FDC9B1DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface2", "Interface2\Interface2.csproj", "{F20A506D-91E2-4210-AEF0-2A91FDC9B1DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface3", "Interface3\Interface3.csproj", "{E8ED4BA7-1BE3-456C-B39A-FE279D349AE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface3", "Interface3\Interface3.csproj", "{E8ED4BA7-1BE3-456C-B39A-FE279D349AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface4", "Interface4\Interface4.csproj", "{8FC3590C-C10E-4874-9F33-C13A1605C837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface5", "Interface5\Interface5.csproj", "{BFCEFF2C-B7DD-49F8-A8F1-3EB44B7EFB06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +169,14 @@ Global
 		{E8ED4BA7-1BE3-456C-B39A-FE279D349AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8ED4BA7-1BE3-456C-B39A-FE279D349AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8ED4BA7-1BE3-456C-B39A-FE279D349AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC3590C-C10E-4874-9F33-C13A1605C837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC3590C-C10E-4874-9F33-C13A1605C837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC3590C-C10E-4874-9F33-C13A1605C837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC3590C-C10E-4874-9F33-C13A1605C837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFCEFF2C-B7DD-49F8-A8F1-3EB44B7EFB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCEFF2C-B7DD-49F8-A8F1-3EB44B7EFB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCEFF2C-B7DD-49F8-A8F1-3EB44B7EFB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCEFF2C-B7DD-49F8-A8F1-3EB44B7EFB06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

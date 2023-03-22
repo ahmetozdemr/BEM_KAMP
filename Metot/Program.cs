@@ -29,7 +29,7 @@ namespace Metot
                 Console.WriteLine("En büyük x ");
                 Console.WriteLine("En küçük z ");
             }
-            else if(x > z && z>y) 
+            else if (x > z && z > y)
             {
                 Console.WriteLine("En büyük x ");
                 Console.WriteLine("En küçük y ");
@@ -49,7 +49,7 @@ namespace Metot
             {
                 Console.WriteLine("{0} sayısı çiftdir", x);
             }
-            else if (x==0)
+            else if (x == 0)
             {
                 Console.WriteLine("{0} sayısı nötr bir sayıdır", x);
             }

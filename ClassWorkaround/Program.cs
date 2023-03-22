@@ -16,8 +16,8 @@ namespace ClassCreate2
             string countryTech = "S-400";
             int siraNo = 1;
 
-            country.countryProperty(siraNo);                      
-          
+            country.countryProperty(siraNo);
+
             Console.WriteLine($"Ülke teknolojisi :{country.countryTechnology(countryTech)}");
 
             Console.ReadKey();

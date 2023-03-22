@@ -21,8 +21,8 @@ namespace School
             book.bookName = "Harry Potter";
             book.bookId = 1;
 
-            MyLibrary myLibrary = new MyLibrary();           
-            myLibrary.BookGiveOperation(book,student,teacher);
+            MyLibrary myLibrary = new MyLibrary();
+            myLibrary.BookGiveOperation(book, student, teacher);
 
             Console.ReadKey();
 

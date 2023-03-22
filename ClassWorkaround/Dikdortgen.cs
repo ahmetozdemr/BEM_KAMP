@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ClassWorkaround
+﻿namespace ClassWorkaround
 {
     public class Dikdortgen
     {
@@ -12,7 +6,7 @@ namespace ClassWorkaround
         Uzunluk uzunluk = new Uzunluk();
 
         Country country = new Country();
-        
+
 
 
     }
