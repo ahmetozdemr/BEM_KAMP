@@ -55,9 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface2", "Interface2\In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface3", "Interface3\Interface3.csproj", "{E8ED4BA7-1BE3-456C-B39A-FE279D349AE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface4", "Interface4\Interface4.csproj", "{8FC3590C-C10E-4874-9F33-C13A1605C837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface4", "Interface4\Interface4.csproj", "{8FC3590C-C10E-4874-9F33-C13A1605C837}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface5", "Interface5\Interface5.csproj", "{BFCEFF2C-B7DD-49F8-A8F1-3EB44B7EFB06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface5", "Interface5\Interface5.csproj", "{BFCEFF2C-B7DD-49F8-A8F1-3EB44B7EFB06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.03.2023_secimler_mirasli", "..\..\..\..\Desktop\22.03.2023_secimler_mirasli\22.03.2023_secimler_mirasli.csproj", "{C3FD52F4-214D-412E-9D4F-0336CA883D81}"
 EndProject
@@ -69,9 +69,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract4", "..\..\..\..\Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinemaProjesi", "..\..\..\..\Downloads\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8\SinemaProjesi.csproj", "{E4787016-8BBD-4E1B-B0A9-7AF509E8C547}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface6", "Interface6\Interface6.csproj", "{CF35C10C-CB0E-4992-8875-6BC453A07399}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface6", "Interface6\Interface6.csproj", "{CF35C10C-CB0E-4992-8875-6BC453A07399}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface7", "Interface7\Interface7.csproj", "{9C7BC294-4700-4D1E-94F6-8E57BE6B8E2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface7", "Interface7\Interface7.csproj", "{9C7BC294-4700-4D1E-94F6-8E57BE6B8E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface8", "Interface8\Interface8.csproj", "{164E0374-3126-4830-A84D-DA77E23205C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface9", "Interface9\Interface9.csproj", "{1BF55112-4C87-4FA8-88BD-3F5220359F3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +223,14 @@ Global
 		{9C7BC294-4700-4D1E-94F6-8E57BE6B8E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C7BC294-4700-4D1E-94F6-8E57BE6B8E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C7BC294-4700-4D1E-94F6-8E57BE6B8E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164E0374-3126-4830-A84D-DA77E23205C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164E0374-3126-4830-A84D-DA77E23205C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164E0374-3126-4830-A84D-DA77E23205C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164E0374-3126-4830-A84D-DA77E23205C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF55112-4C87-4FA8-88BD-3F5220359F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF55112-4C87-4FA8-88BD-3F5220359F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF55112-4C87-4FA8-88BD-3F5220359F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF55112-4C87-4FA8-88BD-3F5220359F3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
