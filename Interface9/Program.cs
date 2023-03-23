@@ -35,7 +35,6 @@ namespace Interface9
             public int tcno { get; set; }
             public void kullanim();
 
-
         }
         class nufuscuzdani : Ikimlik
         {
