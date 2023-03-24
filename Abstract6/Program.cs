@@ -64,7 +64,6 @@ namespace Struct1
     {
         public string Adi { get; set; }
         public int Kredi { get; set; }
-
         public string Kitabi { get; }
         public int Saat { get; set; }
     }

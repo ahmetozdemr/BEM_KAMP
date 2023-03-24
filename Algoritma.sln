@@ -73,17 +73,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface6", "Interface6\In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface7", "Interface7\Interface7.csproj", "{9C7BC294-4700-4D1E-94F6-8E57BE6B8E2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface8", "Interface8\Interface8.csproj", "{164E0374-3126-4830-A84D-DA77E23205C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface8", "Interface8\Interface8.csproj", "{164E0374-3126-4830-A84D-DA77E23205C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface9", "Interface9\Interface9.csproj", "{1BF55112-4C87-4FA8-88BD-3F5220359F3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface9", "Interface9\Interface9.csproj", "{1BF55112-4C87-4FA8-88BD-3F5220359F3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface10", "Interface10\Interface10.csproj", "{885F21B9-F20E-46D5-AE29-32505C151C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface10", "Interface10\Interface10.csproj", "{885F21B9-F20E-46D5-AE29-32505C151C77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericList1", "GenericList1\GenericList1.csproj", "{5E8B633F-09DD-4206-9AF3-42F9EB020A5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericList1", "GenericList1\GenericList1.csproj", "{5E8B633F-09DD-4206-9AF3-42F9EB020A5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenericList2", "CenericList2\CenericList2.csproj", "{20ED2AAF-1EB0-408E-B87C-71744590978C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CenericList2", "CenericList2\CenericList2.csproj", "{20ED2AAF-1EB0-408E-B87C-71744590978C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "İlkForm", "İlkForm\İlkForm.csproj", "{414ADC46-43A8-484A-B7E5-CAD1AE302AFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "İlkForm", "İlkForm\İlkForm.csproj", "{414ADC46-43A8-484A-B7E5-CAD1AE302AFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "İlkForm2", "İlkForm2\İlkForm2.csproj", "{C27740DA-D219-401F-999C-69BD8CCDC6D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +257,10 @@ Global
 		{414ADC46-43A8-484A-B7E5-CAD1AE302AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{414ADC46-43A8-484A-B7E5-CAD1AE302AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{414ADC46-43A8-484A-B7E5-CAD1AE302AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27740DA-D219-401F-999C-69BD8CCDC6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27740DA-D219-401F-999C-69BD8CCDC6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27740DA-D219-401F-999C-69BD8CCDC6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27740DA-D219-401F-999C-69BD8CCDC6D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
