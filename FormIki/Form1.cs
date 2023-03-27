@@ -100,6 +100,12 @@ namespace FormIki
                 button1.Enabled = false;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             if (textBox1.Text != string.Empty)
