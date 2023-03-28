@@ -59,8 +59,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface4", "Interface4\In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface5", "Interface5\Interface5.csproj", "{BFCEFF2C-B7DD-49F8-A8F1-3EB44B7EFB06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.03.2023_secimler_mirasli", "..\..\..\..\Desktop\22.03.2023_secimler_mirasli\22.03.2023_secimler_mirasli.csproj", "{C3FD52F4-214D-412E-9D4F-0336CA883D81}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract2", "..\..\..\..\Downloads\ConsoleApplication8\ConsoleApplication8\Abstract2\Abstract2.csproj", "{A8081B9C-FF48-4FC0-95F0-610D7E743C08}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract3", "..\..\..\..\Downloads\ConsoleApplication8\ConsoleApplication8\Abstract3\Abstract3.csproj", "{06502AA0-C8BB-47AD-AF45-F4550280390B}"
@@ -91,9 +89,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormIki", "FormIki\FormIki.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormSecond", "FormSecond\FormSecond.csproj", "{45D2E710-A554-4728-9168-A06F6C076EF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaProjectForm", "CinemaProjectForm\CinemaProjectForm.csproj", "{2F277FF6-A7B8-4D76-A7CF-F95EFBE48088}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinemaProjectForm", "CinemaProjectForm\CinemaProjectForm.csproj", "{2F277FF6-A7B8-4D76-A7CF-F95EFBE48088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9 Ağustos 2016", "..\..\..\..\Desktop\Yusuf-Kayıt Otomasyon\9 Ağustos 2016\9 Ağustos 2016.csproj", "{6A02917C-41C4-42D7-9DC6-6F9E81DC8205}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9 Ağustos 2016", "Yusuf-Kayıt Otomasyon\9 Ağustos 2016\9 Ağustos 2016.csproj", "{6A02917C-41C4-42D7-9DC6-6F9E81DC8205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.03.2023_secimler_mirasli", "22.03.2023_secimler_mirasli\22.03.2023_secimler_mirasli.csproj", "{C3FD52F4-214D-412E-9D4F-0336CA883D81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,10 +213,6 @@ Global
 		{BFCEFF2C-B7DD-49F8-A8F1-3EB44B7EFB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFCEFF2C-B7DD-49F8-A8F1-3EB44B7EFB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFCEFF2C-B7DD-49F8-A8F1-3EB44B7EFB06}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3FD52F4-214D-412E-9D4F-0336CA883D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3FD52F4-214D-412E-9D4F-0336CA883D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3FD52F4-214D-412E-9D4F-0336CA883D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3FD52F4-214D-412E-9D4F-0336CA883D81}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A8081B9C-FF48-4FC0-95F0-610D7E743C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A8081B9C-FF48-4FC0-95F0-610D7E743C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8081B9C-FF48-4FC0-95F0-610D7E743C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -285,6 +281,10 @@ Global
 		{6A02917C-41C4-42D7-9DC6-6F9E81DC8205}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A02917C-41C4-42D7-9DC6-6F9E81DC8205}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A02917C-41C4-42D7-9DC6-6F9E81DC8205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3FD52F4-214D-412E-9D4F-0336CA883D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FD52F4-214D-412E-9D4F-0336CA883D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FD52F4-214D-412E-9D4F-0336CA883D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FD52F4-214D-412E-9D4F-0336CA883D81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
