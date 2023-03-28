@@ -80,6 +80,17 @@ namespace FormSecond
             }
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            comboBox1.Items.Add("SuperFm");
+            comboBox1.Items.Add(1);
+        }
+
         private void txtAd_TextChanged(object sender, EventArgs e)
         {
             btnGoster.Enabled = ButonAktif();
